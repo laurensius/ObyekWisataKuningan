@@ -16,7 +16,7 @@ Pada gambar di bawah ini merupakan snapshot dari aplikasi <b>Obyek Wisata Kuning
 </tr>
 <tr>
 <td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-17-52-39.png"></td>
-<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-11-53.08.png"></td>
-<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-11-53-40.png"></td>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-17-53-08.png"></td>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-17-53-40.png"></td>
 </tr>
 </table>

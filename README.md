@@ -8,4 +8,15 @@
 </ol>
 <br>
 Pada gambar di bawah ini merupakan snapshot dari aplikasi <b>Obyek Wisata Kuningan</b> : <br>
-<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10308896_10201897413257353_5396935376586962512_n.jpg">
+<table>
+<tr>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-11-23-32.png"></td>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/Screenshot_2014-06-03-11-24-41.png"></td>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/Screenshot_2014-06-03-17-52-19.png"></td>
+</tr>
+<tr>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-11-52-39.png"></td>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-11-53.08png"></td>
+<td><img src="https://bintank23.files.wordpress.com/2014/09/screenshot_2014-06-03-11-53-40.png"></td>
+</tr>
+</table

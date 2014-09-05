@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <WebView 
+        android:id="@+id/wv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </WebView>
+    
+    <!--
+    <Spinner 
+        android:id="@+id/spinner_opsi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_opsi_entries"
+        android:prompt="@string/spinner_opsi_prompt" />
+    
+    <EditText 
+        android:id="@+id/edittext_key"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edittext_key"/>
+    
+    <Button
+        android:id="@+id/button_cari"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/button_cari"
+        android:background="#428bca"/>
+    -->
+</LinearLayout>

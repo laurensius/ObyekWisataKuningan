@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+	    android:gravity="center_horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+		<LinearLayout 
+		    android:gravity="center_horizontal"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	    	android:orientation="vertical">
+	    	<TextView
+	    	    android:layout_margin="10dp"
+	    		android:gravity="center_horizontal"
+	    	    android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+	    		android:id="@+id/tvExit"
+	    		android:text="@string/tvExit">
+	    	</TextView>
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center_horizontal"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	    	android:orientation="horizontal">
+	    	<Button
+	    	    android:layout_width="90dp"
+		    	android:layout_height="wrap_content"
+	    		android:id="@+id/btnExitTidak"
+	    		android:text="@string/btnExitTidak">
+	    	</Button>
+	    	<Button
+	    	    android:layout_width="90dp"
+		    	android:layout_height="wrap_content"
+	    		android:id="@+id/btnExitYa"
+	    		android:text="@string/btnExitYa">
+	    	</Button>
+	    </LinearLayout>
+	</LinearLayout>
+    
+    
+    
+</LinearLayout>

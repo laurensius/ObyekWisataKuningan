@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Obyek Wisata Kuningan</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Toast Exit -->
+    <string name="tvExit">Apakah Anda akan keluar dari aplikasi ?</string>
+    <string name="btnExitYa">Ya ! </string>
+    <string name="btnExitTidak">Tidak !</string>
+	
+    <!-- Pencarian -->
+	<string name="spinner_opsi_prompt">Pilih Opsi</string>
+    <string-array name="spinner_opsi_entries">
+        <item>Dana yang Anda miliki</item>
+        <item>Nama tempat wisata</item>
+        <item>Lokasi tempat wisata</item>
+    </string-array>
+    <string name="hint_edittext_key">Kata kunci pencarian</string>
+    <string name="button_cari">Cari</string>
+    
+    <!-- uri_encrypt -->
+    <string name="uri_splash">file:///android_asset/Wisata Kuningan/public_html/splashscreen.html</string>
+    <string name="uri_menu">file:///android_asset/Wisata Kuningan/public_html/menu.html</string>
+    <string name="uri_caritempatwisata">file:///android_asset/Wisata Kuningan/public_html/caritempatwisata.html</string>
+    <string name="uri_tentang">file:///android_asset/Wisata Kuningan/public_html/tentang.html</string>
+    <string name="uri_result">http://mobile-api.laurensius.3gen-itdev.com/index.php/mobile</string>
+    <string name="uri_detail">http://mobile-api.laurensius.3gen-itdev.com/index.php/mobile/detail</string>
+    <string name="uri_terbaru">http://mobile-api.laurensius.3gen-itdev.com/index.php/mobile/terbaru</string>
+    <string name="uri_detail_terbaru">http://mobile-api.laurensius.3gen-itdev.com/index.php/mobile/detail_terbaru</string>
+    
+    <string name="uri_error_result">file:///android_asset/Wisata Kuningan/public_html/error_result.html</string>
+    <string name="uri_error_detail">file:///android_asset/Wisata Kuningan/public_html/error_detail.html</string>
+    <string name="uri_error_terbaru">file:///android_asset/Wisata Kuningan/public_html/error_terbaru.html</string>
+	<string name="uri_error_detail_terbaru">file:///android_asset/Wisata Kuningan/public_html/error_detail_terbaru.html</string>
+</resources>

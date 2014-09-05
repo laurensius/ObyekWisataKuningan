@@ -1,0 +1,79 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>Cari Tempat Wisata</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" href="manifest/css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body style="
+          background-image: url('manifest/img/afebf6.png');
+          background-repeat: repeat-x;
+          background-position : bottom;
+          background-color : #afebf6;
+          background-attachment: fixed;">
+        <div class="container-fluid">
+            <div class="row">
+                <br>
+                <br>
+                <div class="col-lg-12">
+                    <center>
+                        <img src="manifest/img/logo.png" height="160" alt="">
+                    </center>
+                </div>
+                <br>
+                <div class="col-lg-12">
+                    <label>Cari tempat wisata berdasarkan :</label> 
+                    <select class="form-control" name="opsi" onchange="parampampam(this)">
+                        <option value="0">Pilih opsi</option>
+                        <option value="1">Dana yang Anda miliki</option>
+                        <option value="2">Nama tempat wisata</option>
+                        <option value="3">Lokasi tempat wisata</option>
+                    </select>
+                </div>
+                <br>
+                <div class="col-lg-12" id="input_area">
+                    <input
+                        type="text"
+                        value="Pilih opsi Anda"
+                        class="form-control"
+                        disabled>
+                </div>
+                <br>
+                <div class="col-lg-12" id="submit_area">
+                    <input
+                        disabled
+                        type="button"
+                        value="Cari"
+                        class="btn btn-primary form-control"
+                        onClick="clik_ButtonCari(text_opsi);">
+                </div>
+            </div>
+        </div>
+        <script>
+            function parampampam(x){
+                nilai_opsi = x.options[x.selectedIndex].value;
+                text_opsi = x.options[x.selectedIndex].text;
+                if(nilai_opsi==0){
+                    document.getElementById('input_area').innerHTML = "<input id=\"\" type=\"text\" value=\"Pilih opsi Anda\" class=\"form-control\" disabled>";
+                    document.getElementById('submit_area').innerHTML = "<input type=\"button\" value=\"Cari\" class=\"btn btn-primary form-control\" disabled>";
+                }else
+                if(nilai_opsi==1){
+                    document.getElementById('input_area').innerHTML = "<input id=\"param\" type=\"number\" placeholder=\"Dana yang Anda miliki\" required class=\"form-control\">";
+                    document.getElementById('submit_area').innerHTML = "<input type=\"button\" value=\"Cari\" class=\"btn btn-primary form-control\" onclick=\"click_ButtonCari(\'"+text_opsi+"\');\">";
+                }else
+                if(nilai_opsi==2){
+                    document.getElementById('input_area').innerHTML = "<input id=\"param\" type=\"text\" placeholder=\"Nama Tempat Wisata\" required class=\"form-control\">";
+                    document.getElementById('submit_area').innerHTML = "<input type=\"button\" value=\"Cari\" class=\"btn btn-primary form-control\" onclick=\"click_ButtonCari(\'"+text_opsi+"\');\">";
+                }else
+                if(nilai_opsi==3){
+                    document.getElementById('input_area').innerHTML = "<input id=\"param\" type=\"text\" placeholder=\"Lokasi Tempat Wisata\" required class=\"form-control\">";
+                    document.getElementById('submit_area').innerHTML = "<input type=\"button\" value=\"Cari\" class=\"btn btn-primary form-control\" onclick=\"click_ButtonCari(\'"+text_opsi+"\');\">";
+                }
+            }
+        </script>
+        <script type="text/javascript" src="manifest/js/jquery.min.js"></script>
+        <script type="text/javascript" src="manifest/js/bootstrap.js"></script>
+        <script type="text/javascript" src="manifest/js/laurens_framework.js"></script>
+    </body>
+</html>
